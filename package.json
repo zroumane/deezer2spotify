@@ -1,0 +1,19 @@
+{
+  "name": "deezer2spotify",
+  "version": "1.0.0",
+  "description": "Convert deezer playlist to spotify playlist.",
+  "main": "app.js",
+  "repository": "https://github.com/zroumane/deezer2spotify.git",
+  "author": "zroumane <zroumane@github.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "node-fetch": "^3.1.0",
+    "nodemon": "^2.0.15",
+    "request": "^2.88.2"
+  }
+}
